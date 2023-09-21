@@ -1,15 +1,14 @@
+#include "linked_functions.h"
 #include <stdio.h>
 #include <stdlib.h>
-//mettre les librairies dans un .h
-#include "linked_functions.h"
 
-// à mettre struct dans un .h
 stuct node
 {
 	int data;
 	struct node *next;
 };
 struct node *head;
+
 
 void main()
 {
@@ -35,7 +34,7 @@ void main()
 				break;
 
 			case 3:
-				random_instert();
+				random_insert();
 				break;
 
 			case 4:

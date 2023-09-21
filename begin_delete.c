@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 void begin_delete()
 {
 	struct node *ptr;

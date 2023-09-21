@@ -1,4 +1,6 @@
 //insert un noeud au début
+#include <stdio.h>
+#include <stdlib.h>
 
 void beg_insert()
 {

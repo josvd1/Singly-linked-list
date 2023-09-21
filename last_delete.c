@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 void last_delete()
 {
 	struct node *ptr,*ptr1;

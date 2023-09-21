@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 //insert un noeud à la fin
 void last_insert()
 {
