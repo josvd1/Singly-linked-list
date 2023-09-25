@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "linked_functions.h"
+
 
 void random_delete()
 {
@@ -12,7 +12,7 @@ void random_delete()
 
 	ptr=head;
 
-	for(i = 0; i < loc: i++)
+	for(i = 0; i < loc; i++)
 	{
 		ptr1 = ptr;
 		ptr = ptr->next;
@@ -26,5 +26,5 @@ void random_delete()
 
 	ptr1 ->next = ptr ->next;
 	free(ptr);
-	printf("\nDeleted node %d ", loc + 1);
+	printf("\nDeleted node %d\n", loc + 1);
 }

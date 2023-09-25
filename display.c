@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "linked_functions.h"
+
 
 void display()
 {
@@ -17,7 +17,7 @@ void display()
 
 		while (ptr != NULL)
 		{
-			printf("\n%d", ptr->data);
+			printf("%d\n", ptr->data);
 			ptr = ptr -> next;
 		}
 	}

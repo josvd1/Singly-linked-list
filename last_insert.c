@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "linked_functions.h"
+
 
 //insert un noeud à la fin
 void last_insert()
@@ -33,7 +33,7 @@ void last_insert()
 			}
 			temp->next = ptr;
 			ptr->next = NULL;
-			printf("\nNode Inserted");
+			printf("\nNode Inserted\n");
 		}
 	}
 }

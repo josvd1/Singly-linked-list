@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "linked_functions.h"
 
 void last_delete()
 {

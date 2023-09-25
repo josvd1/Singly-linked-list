@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "linked_functions.h"
+
 
 void begin_delete()
 {

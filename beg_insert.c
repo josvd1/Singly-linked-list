@@ -1,6 +1,6 @@
 //insert un noeud au début
-#include <stdio.h>
-#include <stdlib.h>
+#include "linked_functions.h"
+
 
 void beg_insert()
 {
@@ -21,6 +21,6 @@ void beg_insert()
 		ptr->next = head;
 		head = ptr;
 
-		printf("\nNode inserted");
+		printf("\nNode inserted\n");
 	}
 }

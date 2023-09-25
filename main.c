@@ -1,16 +1,9 @@
 #include "linked_functions.h"
-#include <stdio.h>
-#include <stdlib.h>
-
-stuct node
-{
-	int data;
-	struct node *next;
-};
-struct node *head;
 
 
-void main()
+
+
+int main()
 {
 	int choice = 0;
 
@@ -66,4 +59,6 @@ void main()
 		}
 
 	}
+
+	return(0);
 }

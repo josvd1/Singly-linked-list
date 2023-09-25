@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "linked_functions.h"
+
 
 void random_insert()
 {
@@ -40,6 +40,6 @@ void random_insert()
 
 		ptr ->next = temp ->next;
 		temp ->next = ptr;
-		printf("\nNode inserted");
+		printf("\nNode inserted\n");
 	}
 }

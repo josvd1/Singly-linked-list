@@ -2,7 +2,7 @@ CFLAGS = -Wno-implicit-function-declaration
 
 all: final
 
-final:
+final: main.o beg_insert.o last_insert.o random_insert.o begin_delete.o last_delete.o random_delete.o search.o display.o
 	echo "Compiling final"
 	gcc $(CFLAGS) main.o beg_insert.o last_insert.o random_insert.o begin_delete.o last_delete.o random_delete.o search.o display.o -o final
 	chmod +x final
@@ -40,11 +40,12 @@ search.o: search.c
 	echo "Compiling search"
 	gcc $(CFLAGS) -c search.c
 
-display.o: dislay.c
+display.o: display.c
 	echo "Compiling display"
 	gcc $(CFLAGS) -c display.c
 
 
 clean:
 	echo: "Removing all but the source files"
-	rm *.o final
+	rm -f *.o
+	rm -f final
