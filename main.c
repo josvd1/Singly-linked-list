@@ -10,11 +10,15 @@ int main()
 	while (choice != 9)
 	{
 		printf("Choose one option:\n---\n");
-		printf("\n1.Insert in begining\n2.Insert at last\n3.Insert at any random location\n4.Delete from Beginning\n.Delete from last\n6.Delete node after specified location\n7.Search for an element\n8.Show\n9.Exit\n");
+		printf("\n1.Insert in begining\n2. Insert at last\n3. Insert at any random location\n4. Delete from Beginning\n5. Delete from last\n6. Delete node after specified location\n7. Search for an element\n8. Show\n9. Exit\n");
 		printf("\nEnter your choice\n");
 
 		scanf("%d", &choice);
-
+		if (choice > 9 || choice < 1)
+		{
+			printf("Invalid Input, closing program\n");
+			return (0);
+		}
 
 		switch (choice)
 		{
@@ -53,9 +57,6 @@ int main()
 			case 9:
 				exit(0);
 				break;
-
-			default:
-				printf("Please enter a valid choice\n");
 		}
 
 	}

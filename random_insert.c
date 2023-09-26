@@ -17,7 +17,7 @@ void random_insert()
 	}
 	else
 	{
-		printf("\nEnter Element Value");
+		printf("\nEnter Element Value\n");
 
 		scanf("%d", &item);
 		ptr->data = item;

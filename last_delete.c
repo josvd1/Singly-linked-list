@@ -6,7 +6,7 @@ void last_delete()
 
 	if(head == NULL)
 	{
-		printf("\nlist is empty");
+		printf("\nlist is empty\n");
 	}
 
 	else if(head -> next == NULL)

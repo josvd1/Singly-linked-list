@@ -10,7 +10,7 @@ void last_insert()
 
 	if (ptr == NULL)
 	{
-		printf("\nOVERFLOW !");
+		printf("\nOVERFLOW !\n");
 	}
 	else
 	{
@@ -22,7 +22,7 @@ void last_insert()
 		{
 			ptr -> next = NULL;
 			head = ptr;
-			printf("\nNode inserted");
+			printf("\nNode inserted\n");
 		}
 		else
 		{

@@ -6,7 +6,7 @@ void search()
 	struct node *ptr;
 	int item;
 	int i = 0;
-	int flag;
+	int flag = 0;
 	ptr = head;
 
 	if (ptr == NULL)
@@ -23,19 +23,14 @@ void search()
 		{
 			if(ptr->data == item)
 			{
-				printf("item found at location %d", i+1);
-				flag = 0;
-			}
-			else
-			{
+				printf("item found at location %d\n", i);
 				flag = 1;
 			}
-
 			i++;
 			ptr = ptr -> next;
 		}
 
-		if (flag == 1)
+		if (flag == 0)
 		{
 			printf("Item not found\n");
 		}

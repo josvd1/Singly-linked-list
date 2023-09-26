@@ -19,7 +19,7 @@ void random_delete()
 
 		if(ptr == NULL)
 		{
-			printf("\nCan't delete");
+			printf("\nCan't delete\n");
 			return;
 		}
 	}
